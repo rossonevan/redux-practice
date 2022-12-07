@@ -6,6 +6,7 @@ function App() {
   const counter = useSelector((state) => state.counter)
 
   const dispatch = useDispatch();
+  
   const increase = () => {
     dispatch({type: 'INC'})
   }
